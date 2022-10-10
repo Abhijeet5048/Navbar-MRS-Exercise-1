@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #00203FFF;  /**/
+}
+
+#Nav_Bar {
+    background-color: #ADEFD1FF;       
+    border-radius: 20px;
+    height: 50px;
+}
+
+#Nav_bar ul {
+    overflow: auto;
+}
+
+li {
+    float: left;    
+    list-style: disc;     
+    margin: 12px 10px
+}
+
+#Nav_Bar li a {
+    padding: 12px 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#nav {
+    font-style: bold;
+    font-weight: bold;
+}
+
+#Nav_Bar li a:hover {
+    color: rgb(238, 65, 39);   /*responds when cursor is hovered over*/
+}
+
+.Search {                 
+    float: right;
+    color: cornsilk;     /*Aligning the search bar*/
+    padding: 12px 10px;
+}
+
+#Nav_Bar input {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px 20px;
+    width: 100%
+}
